@@ -8,7 +8,7 @@ WORKDIR /app
 
 # 复制 package.json 和 package-lock.json（如果有）
 
-COPY package\*.json ./
+COPY package*.json ./
 
 # 安装依赖
 
